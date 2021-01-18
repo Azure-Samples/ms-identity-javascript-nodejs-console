@@ -31,7 +31,7 @@ This sample demonstrates the following **MSAL Node** concepts:
 | `bin/authProvider.js` | Main authentication logic resides here.                      |
 | `bin/graph.js`        | Contains an implementation of Graph JavaScript client SDK.   |
 | `data/users.json`     | Example user accounts in JSON                                |
-| `.env`                | Environment variables of authentication credentials.         |
+| `.env`                | Environment variables of authentication parameters.         |
 
 ## Getting Started
 
