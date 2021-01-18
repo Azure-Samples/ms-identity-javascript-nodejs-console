@@ -27,11 +27,10 @@ This sample demonstrates the following **MSAL Node** concepts:
 | File/folder           | Description                                                  |
 |-----------------------|--------------------------------------------------------------|
 | `AppCreationScripts/` | Contains Powershell scripts for automating app registration. |
-| `bin/authConfig.js`   | Contains the authentication configuration parameters.        |
-| `bin/authProvider.js` | Main authentication logic resides here.                      |
-| `bin/graph.js`        | Contains an implementation of Graph JavaScript client SDK.   |
-| `data/users.json`     | Example user accounts in JSON                                |
-| `.env`                | Environment variables of authentication parameters.         |
+| `bin/index.js`        | Application entry.                                           |
+| `bin/auth.js`         | Main authentication logic resides here.                      |
+| `bin/fetch.js`        | Contains an Axios HTTP client for calling endpoints.         |
+| `.env`                | Environment variables of authentication parameters.          |
 
 ## Getting Started
 
