@@ -41,7 +41,15 @@ This sample demonstrates the following **MSAL Node** concepts:
 
 ### Setup
 
-1. [Register a new application](https://docs.microsoft.com/azure/active-directory/develop/scenario-daemon-app-registration) in the [Azure Portal](https://portal.azure.com). Ensure that you have obtained **admin consent** for API permissions.
+1. Register [a Daemon app that calls web APIs](https://docs.microsoft.com/azure/active-directory/develop/scenario-daemon-app-registration) in the [Azure Portal](https://portal.azure.com).
+1. In the app's registration screen, select the API permissions blade in the left to open the page where we add access to the APIs that your application needs.
+    - Select the Add a permission button and then,
+    - Ensure that the Microsoft APIs tab is selected.
+    - In the Commonly used Microsoft APIs section, select Microsoft Graph
+    - Select Application Permissions. 
+    - In this section, select the `User.Read.All` from the list. Use the search box if necessary.
+    - Select the Add permissions button at the bottom.
+    - Be sure to click the checkmark to **Grant admin consent**.
 1. Clone this repository `git clone https://github.com/Azure-Samples/ms-identity-javascript-nodejs-console.git`
 1. Open the [.env](.env) file and provide the required configuration values.
     1. Replace the string `Enter_the_Application_Id_Here` with your app/client ID on Azure AD portal.
