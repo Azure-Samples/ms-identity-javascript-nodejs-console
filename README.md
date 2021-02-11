@@ -12,7 +12,7 @@ urlFragment: "ms-identity-javascript-nodejs-console"
 
 # A Node.js console application secured by MSAL Node (Preview) on Microsoft identity platform
 
-This sample demonstrates how to use [MSAL Node (Preview)](https://github.com/AzureAD/microsoft-authentication-library-for-js/tree/dev/lib/msal-node) to acquire an access token for a protected resource such as Microsoft Graph in a console application using the application's own identity with the ([client credentials flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow)).
+This sample demonstrates how to use [MSAL Node](https://github.com/AzureAD/microsoft-authentication-library-for-js/tree/dev/lib/msal-node) to acquire an access token for a protected resource such as Microsoft Graph in a console application using the application's own identity with the ([client credentials flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow)).
 
 ## Features
 
