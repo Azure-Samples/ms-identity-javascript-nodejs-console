@@ -46,7 +46,7 @@ This sample demonstrates the following **MSAL Node** concepts:
     2. Select **Grant admin consent for {tenant}**.
 1. Clone this repository `git clone https://github.com/Azure-Samples/ms-identity-javascript-nodejs-console.git`
 1. Open the [.env](.env) file and provide the required configuration values.
-    1. Replace the string `Enter_the_Tenant_Id_Here` with your tenant ID on Azure AD portal.
+    1. Replace the string `Enter_the_Tenant_Info_Here` with your tenant ID on Azure AD portal.
     2. Replace the string `Enter_the_Application_Id_Here` with your app/client ID on Azure AD portal.
     3. Replace the string `Enter_the_Client_Secret_Here` with the client secret you created on Azure AD portal.
     4. Replace the string `Enter_the_Cloud_Instance_Id_Here` with `https://login.microsoftonline.com/` (see **note** below).
@@ -54,7 +54,7 @@ This sample demonstrates the following **MSAL Node** concepts:
 
 > :information_source: *note*: This is for multi-tenant applications located on the global Azure cloud. For more information, see: [Use MSAL in a national cloud environment](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-javascript-auth-code)
 
-> :information_source: *note*: This is for MS Graph instance located on the global Azure cloud. For more information, see: [Use Microsoft Graph in a national cloud environment](https://docs.microsoft.com/en-us/graph/deployments)
+> :information_source: *note*: This is for MS Graph instance located on the global Azure cloud. For more information, see: [Use Microsoft Graph in a national cloud environment](https://docs.microsoft.com/graph/deployments)
 
 1. On the command line, navigate to the root of the repository, and type `npm install`.
 
