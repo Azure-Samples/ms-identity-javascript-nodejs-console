@@ -15,15 +15,15 @@ const msalConfig = {
 
 /**
  * With client credentials flows permissions need to be granted in the portal by a tenant administrator.
- * The scope is always in the format '<resource>/.default'. For more, visit: 
+ * The scope is always in the format '<resource-appId-uri>/.default'. For more, visit: 
  * https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow 
  */
 const tokenRequest = {
-	scopes: [process.env.GRAPH_ENDPOINT + '.default'],
+	scopes: [process.env.GRAPH_ENDPOINT + '.default'], // e.g. 'https://graph.microsoft.com/.default'
 };
 
 const apiConfig = {
-	uri: process.env.GRAPH_ENDPOINT + 'v1.0/users',
+	uri: process.env.GRAPH_ENDPOINT + 'v1.0/users', // e.g. 'https://graph.microsoft.com/v1.0/users'
 };
 
 /**
