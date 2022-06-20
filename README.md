@@ -52,7 +52,7 @@ This sample demonstrates the following **MSAL Node** concepts:
     4. Replace the string `Enter_the_Cloud_Instance_Id_Here` with `https://login.microsoftonline.com/` (see **note** below).
     5. Replace the string `Enter_the_Graph_Endpoint_Here`. with `https://graph.microsoft.com/` (see **note** below).
 
-> :information_source: *note*: This is for multi-tenant applications located on the global Azure cloud. For more information, see: [Use MSAL in a national cloud environment](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-javascript-auth-code)
+> :information_source: *note*: This is for multi-tenant applications located on the global Azure cloud. For more information, see: [Use MSAL in a national cloud environment](https://docs.microsoft.com/azure/active-directory/develop/msal-national-cloud?tabs=javascript)
 
 > :information_source: *note*: This is for MS Graph instance located on the global Azure cloud. For more information, see: [Use Microsoft Graph in a national cloud environment](https://docs.microsoft.com/graph/deployments)
 

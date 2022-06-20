@@ -9,8 +9,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@azure/msal-node": "^1.0.0",
-    "dotenv": "^8.2.0",
-    "yargs": "^16.2.0"
+    "@azure/msal-node": "^1.9.1",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "yargs": "^17.5.1"
   }
 }
