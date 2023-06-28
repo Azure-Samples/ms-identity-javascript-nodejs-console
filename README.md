@@ -6,13 +6,13 @@ products:
 - nodejs
 - ms-graph
 - azure-active-directory
-description: "Demonstrates how to use MSAL Node to acquire an access token for a protected resource such as Microsoft Graph in a console application using the application's own identity (client credentials flow)"
+description: "Demonstrates how to use MSAL Node to acquire an access token for a protected resource such as Microsoft Graph in a console daemon application using the application's own identity (client credentials flow)"
 urlFragment: "ms-identity-javascript-nodejs-console"
 ---
 
-# A Node.js console application secured by MSAL Node on Microsoft identity platform
+# A Node.js console daemon application secured by MSAL Node on Microsoft identity platform
 
-This sample demonstrates how to use [MSAL Node](https://github.com/AzureAD/microsoft-authentication-library-for-js/tree/dev/lib/msal-node) to acquire an access token for a protected resource such as Microsoft Graph in a console application using the application's own identity with the ([client credentials flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow)).
+This sample demonstrates how to use [MSAL Node](https://github.com/AzureAD/microsoft-authentication-library-for-js/tree/dev/lib/msal-node) to acquire an access token for a protected resource such as Microsoft Graph in a console daemon application using the application's own identity with the ([client credentials flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow)).
 
 ## Features
 
