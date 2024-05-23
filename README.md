@@ -5,7 +5,7 @@ languages:
 products:
 - nodejs
 - ms-graph
-- azure-active-directory
+- microsoft-entra-id
 description: "Demonstrates how to use MSAL Node to acquire an access token for a protected resource such as Microsoft Graph in a console daemon application using the application's own identity (client credentials flow)"
 urlFragment: "ms-identity-javascript-nodejs-console"
 ---
@@ -44,14 +44,14 @@ This sample demonstrates the following **MSAL Node** concepts:
 
 ### Setup
 
-1. [Register a new application](https://docs.microsoft.com/azure/active-directory/develop/scenario-daemon-app-registration) in the [Azure Portal](https://portal.azure.com).
+1. [Register a new application](https://docs.microsoft.com/azure/active-directory/develop/scenario-daemon-app-registration) in the [Microsoft Entra admin center](https://entra.microsoft.com).
     1. For API Permissions, select `User.Read.All` under **Microsoft APIs** > **Microsoft Graph** > **Application Permissions**.
     2. Select **Grant admin consent for {tenant}**.
 1. Clone this repository `git clone https://github.com/Azure-Samples/ms-identity-javascript-nodejs-console.git`
 1. Open the [.env](.env) file and provide the required configuration values.
-    1. Replace the string `Enter_the_Tenant_Info_Here` with your tenant ID on Azure AD portal.
-    2. Replace the string `Enter_the_Application_Id_Here` with your app/client ID on Azure AD portal.
-    3. Replace the string `Enter_the_Client_Secret_Here` with the client secret you created on Azure AD portal.
+    1. Replace the string `Enter_the_Tenant_Info_Here` with your tenant ID on Microsoft Entra admin center.
+    2. Replace the string `Enter_the_Application_Id_Here` with your app/client ID on Microsoft Entra admin center.
+    3. Replace the string `Enter_the_Client_Secret_Here` with the client secret you created on Microsoft Entra admin center.
     4. Replace the string `Enter_the_Cloud_Instance_Id_Here` with `https://login.microsoftonline.com/` (see **note** below).
     5. Replace the string `Enter_the_Graph_Endpoint_Here`. with `https://graph.microsoft.com/` (see **note** below).
 
